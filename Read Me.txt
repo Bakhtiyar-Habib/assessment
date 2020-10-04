@@ -1,0 +1,1 @@
+To run this project you first need to create a VueJS project on your PC. After creating the project replace your files with the files in this git repository. Then go to project directory and open the Terminal. Run "vue add vuetify" to install vuetify, then after it is installed run "npm run serve" in the terminal to run the project in localhost.

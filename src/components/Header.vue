@@ -1,5 +1,5 @@
 <template>
-
+    
     <v-toolbar flat class="mainHeader"> 
       
       <v-toolbar-title>Click Motto</v-toolbar-title>
@@ -114,10 +114,3 @@
     }),
   }
 </script>
-
-<style scoped>
-.navtext {
-  font-style: normal !important;
-}
-
-</style>

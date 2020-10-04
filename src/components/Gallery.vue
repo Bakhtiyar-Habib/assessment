@@ -60,6 +60,9 @@
             <v-list-item>
               <v-list-item-title><router-link to="/">360</router-link></v-list-item-title>
             </v-list-item>
+            <v-list-item>
+              <v-list-item-title><router-link to="/">Recommended</router-link></v-list-item-title>
+            </v-list-item>
 
           </v-list>
         </v-menu>
@@ -207,8 +210,5 @@
 </script>
 
 <style scoped>
- .img1 { 
-    width: 100%; 
-    height: auto !important; 
-}
+
 </style>
