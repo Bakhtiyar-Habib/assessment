@@ -1,0 +1,59 @@
+header {
+  .v-toolbar__title {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: orange;
+  }
+
+
+  .v-toolbar__content {
+    @media only screen and (max-width: 599px) {
+      padding: 5px;
+    }
+  }
+}
+
+
+  
+  .navtext {
+  font-size: 1em !important;
+  font-weight: 400;
+  text-transform: capitalize;
+  }
+
+  .dropclass {
+    
+    color: white !important;
+    background-color: black !important;
+    
+  }
+
+  .dropclassfont {
+    font-size: 1em !important;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: white !important;
+  }
+
+  .vl {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-left: 2px solid black;
+    max-height: 10px;
+  }
+
+.mainHeader {
+  .v-toolbar__items {
+    .v-btn__content {
+      a {
+        color: $black;
+      }
+    }
+
+    .v-btn {
+      @media only screen and (max-width: 599px) {
+        padding: 0 0 0 10px;
+      }
+    }
+  }
+}
